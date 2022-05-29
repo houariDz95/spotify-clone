@@ -1,0 +1,83 @@
+.main {
+    max-height: 50vh;
+    margin-bottom: 25px;
+}
+
+.mainContent{
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+.punkHeightLight{
+    flex: 0.25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.punkContainer{
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    margin-right: 20px;
+}
+
+.punkDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0.75;
+}
+
+.selectedPunk{
+    object-fit: contain;
+    max-width: min(30vw, 40vh);
+    max-height: 30vh;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+}
+
+.title > h1{
+    font-size: 30px;
+    font-weight: 800;
+    margin-right: 10px;    
+}
+.itemNumber{
+    font-size: 30px;
+    font-weight: 700;
+    color: gray;
+}
+
+.owner{
+    display: flex;
+    align-items: center;
+}
+
+.ownerImageContainer > img{
+    height: 45px;
+    width: 45px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.ownerHandle{
+    color: #fde445;
+}
+
+.ownerLinks {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+
+}
+
+.ownerLlink{
+    margin-left: 15px;
+}
+.ownerLlink > img{
+    width: 50px;
+}
